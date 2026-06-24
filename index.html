@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file2img</title>
+    <link rel="stylesheet" href="style.css">
+	<script defer src="./image.js"></script>
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+    <header class="title">
+        <h1>File to Image</h1>
+        <p>A tool that converts any file into an image</p>
+    </header>
+    <div class="section">
+        <div>
+            <label for="selectedFile">Select file:</label>
+            <input type="file" id="selectedFile" name="selectedFile">
+        </div>
+
+		<hr>
+
+		<canvas class="section" id="outputCanvas" width="100" height="100"></canvas>
+    </div>
+    <footer>
+        <p>
+            <a href="https://scratch.mit.edu/users/KryptoScratcher">Scratch</a>
+            |
+            <a href="https://github.com/KPT0/obj-sm3-converter">Source Code</a>
+        </p>
+    </footer>
+</body>
+
+</html>
